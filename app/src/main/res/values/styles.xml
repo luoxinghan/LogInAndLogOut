@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LoginTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:layout_marginLeft">@dimen/loginmargin</item>
+        <item name="android:layout_marginRight">@dimen/loginmargin</item>
+    </style>
+    <style name="AddButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/thread_text_view</item>
+    </style>
+
+    <style name="files_edit_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginStart">@dimen/files_margin</item>
+        <item name="android:layout_marginEnd">@dimen/files_margin</item>
+        <item name="android:layout_height">@dimen/loginmargin</item>
+    </style>
+
+    <dimen name="loginmargin">50dp</dimen>
+    <dimen name="files_margin">40dp</dimen>
+</resources>

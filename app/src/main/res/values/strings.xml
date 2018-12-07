@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">LogInAndLogOut</string>
+    <string name="login_button">login</string>
+    <string name="login_password">Password</string>
+    <string name="login_username">username</string>
+    <string name="log_out">Log out</string>
+    <string name="welcome_text_view">Welcome!</string>
+    <string name="thread_button">Thread</string>
+    <string name="add_two">+2</string>
+    <string name="add_five">+5</string>
+    <string name="user_icon">ICON</string>
+    <string name="welcom_user_button">Users</string>
+    <string name="welcome_thread_button">Thread</string>
+    <string name="welcome_films_button">Films</string>
+    <string name="film_poster">POSTER</string>
+    <string name="film_detail_back_button">Back</string>
+    <string name="files_name">Name</string>
+    <string name="files_phone">Phone</string>
+    <string name="files_save_button">Save</string>
+    <string name="files_find_button">Find</string>
+    <string name="welcome_sqlite_button">SQLite</string>
+    <string name="contact_list_show">Show List</string>
+</resources>

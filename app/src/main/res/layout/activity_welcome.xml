@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.WelcomeActivity">
+
+    <Button
+        android:id="@+id/log_out_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="@string/log_out"/>
+
+    <Button
+        android:id="@+id/welcome_thread_button"
+        android:text="@string/welcome_thread_button"
+        android:layout_below="@id/welcome_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_toStartOf="@id/welcome_user_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/welcome_user_button"
+        android:text="@string/welcom_user_button"
+        android:layout_below="@id/welcome_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/welcome_films_button"
+        android:text="@string/welcome_films_button"
+        android:layout_below="@id/welcome_text_view"
+        android:layout_toEndOf="@id/welcome_user_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/welcome_files_button"
+        android:text="@string/welcome_sqlite_button"
+        android:layout_below="@id/welcome_user_button"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/welcome_text_view"
+        android:text="@string/welcome_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

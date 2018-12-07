@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CalculateActivity">
+
+    <TextView
+        android:id="@+id/thread_text_view"
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/thread_add_two"
+        android:text="@string/add_two"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/loginmargin"
+        style="@style/AddButtonStyle" />
+
+    <Button
+        android:id="@+id/thread_add_five"
+        android:text="@string/add_five"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/loginmargin"
+        style="@style/AddButtonStyle" />
+
+</RelativeLayout>

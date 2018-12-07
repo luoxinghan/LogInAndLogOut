@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.FilesActivity">
+
+    <Button
+        android:id="@+id/files_show_list_button"
+        android:text="@string/contact_list_show"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/files_name_text_view"
+        android:text="@string/files_name"
+        android:layout_above="@id/files_name_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"/>
+
+    <TextView
+        android:id="@+id/files_phone_text_view"
+        android:text="@string/files_phone"
+        android:layout_above="@id/files_phone_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"/>
+    
+    <EditText
+        android:id="@+id/files_name_edit_text"
+        style="@style/files_edit_text"
+        android:layout_above="@id/files_phone_text_view" />
+    
+    <EditText
+        android:id="@+id/files_phone_edit_text"
+        android:layout_centerInParent="true"
+        style="@style/files_edit_text" />
+
+    <LinearLayout
+        android:layout_below="@id/files_phone_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/files_save_button"
+            android:text="@string/files_save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/files_find_button"
+            android:layout_marginStart="20dp"
+            android:text="@string/files_find_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</RelativeLayout>
